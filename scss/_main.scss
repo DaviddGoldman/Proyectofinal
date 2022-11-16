@@ -1,35 +1,43 @@
 main {
-    background-color: black;
-    .contenido-1 {
-        .tittle {
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding-top: 2em;
-        }
-        .cont {
-            
-            font-size: 30px;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 2em;
-        }
+    background: linear-gradient(45deg, #111, #333);
+}
+
+.contenido-1 {
+    .tittle {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2em;
     }
-    .images {
-        .imgs {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            padding: 0 2em 5em 2em;
-        }
-        img {
-        
-            height: 500px;
-            width: 350px;
-        }
+    .cont {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Merriweather', serif;
+        font-size: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+    }
+}
+.images {
+    .imgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 0 2em 5em 2em;
+    }
+    img {
+        border: 3px solid white;
+        border-radius: 25px;
+        height: 500px;
+        width: 350px;
     }
 }
