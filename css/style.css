@@ -1,0 +1,24 @@
+main {
+  background-color: black; }
+  main .contenido-1 .tittle {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em; }
+  main .contenido-1 .cont {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em; }
+  main .images .imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2em 5em 2em; }
+  main .images img {
+    height: 500px;
+    width: 350px; }
