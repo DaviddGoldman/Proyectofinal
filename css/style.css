@@ -246,6 +246,29 @@ main {
   margin: 0;
   padding: 0; }
 
+.tittle {
+  padding: 0;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merriweather', serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em; }
+
+.cont {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em; }
+
 .nosotros {
   padding: 2em; }
 
